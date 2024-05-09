@@ -27,7 +27,7 @@ try:
     country = col1.multiselect("Choose Country", ["United States of America", "Canada", "Mexico"], ["United States of America"])
 
     states = col1.multiselect(
-        "Choose State", list(df.loc[:,'STATE'].unique()), ["MN", "AZ"]
+        "Choose State", list(df.loc[:,'STATE'].unique()), ["AZ"]
     )
 
     col1.multiselect('Service Capabilities?', services)
